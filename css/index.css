@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/app1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.phone-app {
+  min-width: 500px;
+  position: absolute;
+  bottom: 77px;
+
+  background-color: darkorchid;
+  border-radius: 10px;
+  color: white;
+}
+
+.app-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100% !important;
+  padding: 15px;
+}
+
+.app-link a img {
+  width: 77px;
+  height: 77px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .phone-app {
+    bottom: 0 !important;
+  }
+
+  .app-link {
+    margin: 10px 0;
+  }
+}
