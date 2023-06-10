@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#text-container {
+  margin-bottom: 10px;
+}
+
+#result-container {
+  display: none;
+}
+
+textarea {
+  display: block;
+}

@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="../css/kiril_latin.css" />
   </head>
   <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Kirilga o'tkazish</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      </head>
+      <body>
+        <div id="text-container">
+          <label for="latin-text">Matnni kirilga o'tkazing:</label>
+          <textarea id="latin-text" rows="5"></textarea>
+          <button id="convert-btn">O'tkazish</button>
+          <button id="copy-btn">Nusxa olish</button>
+        </div>
+        <div id="result-container">
+          <h3>Ruscha yozuv:</h3>
+          <textarea id="russian-text" rows="5" readonly></textarea>
+        </div>
+
+        <script src="script.js"></script>
+      </body>
+    </html>
+
     <script src="../js/kiril_latin.js"></script>
   </body>
 </html>
