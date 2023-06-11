@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.textarea-box {
+  display: flex;
+  justify-content: space-between;
+}
+
 #text-container {
   margin-bottom: 10px;
 }
@@ -14,4 +30,15 @@
 
 textarea {
   display: block;
+  border: 7px solid crimson;
+  font-size: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 25px;
+}
+
+label, h3 {
+  font-size: 22px;
 }
